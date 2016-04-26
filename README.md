@@ -4,6 +4,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 ## Table of Contents
 - [IDEs & Texteditors](#ides--texteditors)
 - [Tools](#tools)
+- [Other Apps](#other-apps)
 
 ## IDEs & Texteditors
 - [Visual Studio Code](http://code.visualstudio.com/) (Super nice code completion & integration, typescript)
@@ -12,3 +13,6 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 
 ## Tools
 - [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) (A Hassle-Free Way to Self-Host Google Fonts)
+
+## Other Apps
+- [Image Optim](https://imageoptim.com/) (Removes bloated metadata. Saves disk space & bandwidth by compressing images without losing quality.)
