@@ -15,4 +15,4 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) (A Hassle-Free Way to Self-Host Google Fonts)
 
 ## Other Apps
-- [Image Optim](https://imageoptim.com/) (Removes bloated metadata. Saves disk space & bandwidth by compressing images without losing quality.)
+- [Image Optim](https://imageoptim.com/) (Removes bloated metadata. Compressing images without losing quality.)
