@@ -1,7 +1,8 @@
 # Frontend-Resources
+A collection of all the resources usefull for every webdeveloper (not only at Netural)
 
 ## Table of Contents
-- [IDEs & Texteditors](#tools)
+- [IDEs & Texteditors](#ides--texteditors)
 - [Tools](#tools)
 
 ## IDEs & Texteditors
