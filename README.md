@@ -6,7 +6,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [Essetial Tools & Apps](#tools)
 - [Other Apps](#other-apps)
 - [Online Tools](#online-tools)
-- 
+
 ## Essetial Tools & Apps
 ### IDEs & Texteditors
 - [Visual Studio Code](http://code.visualstudio.com/) (Super nice code completion & integration, typescript)
