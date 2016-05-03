@@ -19,12 +19,20 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [ember-cli](http://ember-cli.com/) `npm install -g ember-cli`
 
 ### IDEs & Texteditors
-- [Visual Studio Code](http://code.visualstudio.com/) (Super nice code completion & integration, typescript)
-- [Atom](https://atom.io/) (Used by Facebook, developed by GitHub, great for hacking stuff)
-- [Sublime](http://www.sublimetext.com/2) (Most known web-dev text editor)
+- [Visual Studio Code](http://code.visualstudio.com/) Super nice code completion & integration, typescript
+- [Atom](https://atom.io/) Used by Facebook, developed by GitHub, great for hacking stuff
+- [Sublime](http://www.sublimetext.com/2) Most known web-dev text editor
+
+### Git
+- [git](https://git-scm.com/) `brew install git`
+- [Sourcetree](https://www.sourcetreeapp.com/) A free Git & Mercurial client for Windows or Mac.
+- [Tower](https://www.git-tower.com/) Version control with Git - made easy. In a beautiful, efficient, and powerful app.
+
+### Others
+- [Slack](https://slack.com/) A messaging app for teams.
 
 ## Other Apps
-- [Image Optim](https://imageoptim.com/) (Removes bloated metadata. Compressing images without losing quality.)
+- [Image Optim](https://imageoptim.com/) Removes bloated metadata. Compressing images without losing quality.
 
 ## Online Tools
-- [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) (A Hassle-Free Way to Self-Host Google Fonts)
+- [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) A Hassle-Free Way to Self-Host Google Fonts
