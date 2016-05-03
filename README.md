@@ -2,7 +2,6 @@
 A collection of all the resources usefull for every webdeveloper (not only at Netural)
 
 ## Table of Contents
-- [IDEs & Texteditors](#essetial-tools--apps)
 - [Essetial Tools & Apps](#essetial-tools--apps)
   - [Environment](#environment)
   - [IDEs & Texteditors](#ides--texteditors)
