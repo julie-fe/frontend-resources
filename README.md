@@ -8,6 +8,8 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
   - [IDEs & Texteditors](#ides--texteditors)
   - [Git](#git)
   - [Others](#others)
+- [Guidlines](#guidlines)
+  - [CSS](#css)
 - [Other Apps](#other-apps)
 - [Online Tools](#online-tools)
 
@@ -38,6 +40,12 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 ### Others
 - [Slack](https://slack.com/) A messaging app for teams.
 - [Xcode](https://developer.apple.com/xcode/download/) Xcode command line tools.
+
+## Guidlines
+### CSS
+- [SASS/SCSS](http://sass-lang.com/guide) We use SCSS
+- [SMACSS](https://smacss.com/) Scalable and Modular Architecture for CSS.
+- [BEM](http://getbem.com/) Block Element Modifier
 
 ## Other Apps
 - [Image Optim](https://imageoptim.com/) Removes bloated metadata. Compressing images without losing quality.
