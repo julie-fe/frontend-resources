@@ -17,6 +17,9 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [typescript](http://www.typescriptlang.org/) `npm install -g typescript`
 - [typings](https://github.com/typings/typings) `npm install -g typings`
 - [ember-cli](http://ember-cli.com/) `npm install -g ember-cli`
+- [composer](https://getcomposer.org/download/) `php -r "readfile('https://getcomposer.org/installer');" | php`,`sudo mkdir /usr/local/bin/`,`sudo mv composer.phar /usr/local/bin/composer`
+- [compass](http://compass-style.org/) `gem install compass`
+- - [compass](https://github.com/chriseppstein/sass-globbing) `gem install sass-globbing`
 
 ### IDEs & Texteditors
 - [Visual Studio Code](http://code.visualstudio.com/) Super nice code completion & integration, typescript
