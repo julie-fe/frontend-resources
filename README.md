@@ -5,6 +5,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [Essetial Tools & Apps](#essetial-tools--apps)
   - [Environment](#environment)
   - [IDEs & Texteditors](#ides--texteditors)
+  - [Template Engines](#template-engines)
   - [Git](#git)
   - [Others](#others)
 - [Guidlines](#guidlines)
@@ -23,6 +24,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [typings](https://github.com/typings/typings) `npm install -g typings`
 - [ember-cli](http://ember-cli.com/) `npm install -g ember-cli`
 - [composer](https://getcomposer.org/download/) `php -r "readfile('https://getcomposer.org/installer');" | php`,`sudo mkdir /usr/local/bin/`,`sudo mv composer.phar /usr/local/bin/composer`
+- [sass](http://sass-lang.com/) `gem install sass`
 - [compass](http://compass-style.org/) `gem install compass`
 - [sass-globbing](https://github.com/chriseppstein/sass-globbing) `gem install sass-globbing`
 
@@ -31,10 +33,16 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [Atom](https://atom.io/) Used by Facebook, developed by GitHub, great for hacking stuff
 - [Sublime](http://www.sublimetext.com/2) Most known web-dev text editor
 
+### Template Engines
+- [Jade](https://jade-lang.com/) `npm install -g jade`
+- [Handlebars.js](http://handlebarsjs.com/) `npm install -g handlebars`
+
 ### Git
 - [git](https://git-scm.com/) `brew install git`
 - [Sourcetree](https://www.sourcetreeapp.com/) A free Git & Mercurial client for Windows or Mac.
 - [Tower](https://www.git-tower.com/) Version control with Git - made easy. In a beautiful, efficient, and powerful app.
+- [GitHub for Desktop](https://www.git-tower.com/) GitHub Desktop is a seamless way to contribute to projects on GitHub and GitHub Enterprise.
+- [GitKraken](https://www.gitkraken.com/) The downright luxurious Git client, for Windows, Mac & Linux. Cross-platform, 100% standalone, and free.
 
 ### Others
 - [Slack](https://slack.com/) A messaging app for teams.
