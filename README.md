@@ -7,6 +7,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
   - [IDEs & Texteditors](#ides--texteditors)
   - [Template Engines](#template-engines)
   - [Git](#git)
+  - [Fonts](#fonts)
   - [Others](#others)
 - [Guidlines](#guidlines)
   - [CSS](#css)
@@ -43,6 +44,9 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [Tower](https://www.git-tower.com/) Version control with Git - made easy. In a beautiful, efficient, and powerful app.
 - [GitHub for Desktop](https://www.git-tower.com/) GitHub Desktop is a seamless way to contribute to projects on GitHub and GitHub Enterprise.
 - [GitKraken](https://www.gitkraken.com/) The downright luxurious Git client, for Windows, Mac & Linux. Cross-platform, 100% standalone, and free.
+
+### Fonts
+- [Fira Code](https://github.com/tonsky/FiraCode) Monospaced font with programming ligatures
 
 ### Others
 - [Slack](https://slack.com/) A messaging app for teams.
