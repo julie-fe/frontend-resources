@@ -49,10 +49,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [Xcode](https://developer.apple.com/xcode/download/) Xcode command line tools.
 
 ## Guidlines
-### CSS
-- [SASS/SCSS](http://sass-lang.com/guide) We use SCSS
-- [SMACSS](https://smacss.com/) Scalable and Modular Architecture for CSS.
-- [BEM](http://getbem.com/) Block Element Modifier
+- [CSS](https://github.com/Netural/frontend-resources/blob/master/CODEGUIDLINES.md) Netural CSS Code Guidlines
 
 ## Other Apps
 - [Image Optim](https://imageoptim.com/) Removes bloated metadata. Compressing images without losing quality.
