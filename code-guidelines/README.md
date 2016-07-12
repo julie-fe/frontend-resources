@@ -1,8 +1,8 @@
 # CODE GUIDELINES
 
 ## Table of Contents
-- [CSS](#css)
-- [JavaScript/Typescript](#javascripttypescript)
+- [CSS](https://github.com/Netural/frontend-resources/blob/master/code-guidelines/CSS.md)
+- [JavaScript/Typescript](https://github.com/Netural/frontend-resources/blob/master/code-guidelines/JS_TS.md)
 
 ## General
 - The tab with should be 4 characters not 2
