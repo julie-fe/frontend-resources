@@ -6,6 +6,11 @@
   - [Links](#links)
 - [JavaScript/Typescript](#javascripttypescript)
 
+## General
+- The tab with should be 4 characters not 2
+- Document code!
+- If your file is huge, you are doing something wrong.
+
 ## CSS
 
 ### In short
@@ -63,7 +68,7 @@
 
 ## JavaScript/TypeScript
 In JavaScript/TypeScript we use the CamelCase Syntax    
-* [Typescript Handbook](http://www.typescriptlang.org/docs/handbook/)
+* [Typescript Handbook](http://www.typescriptlang.org/docs/)
 
 **Variables**   
 Variables start with a lowercase char
@@ -111,3 +116,30 @@ interface MyInterface {
 interface IMyInterface {
 }
 ```
+
+**Functions & Methods** 
+Functions, Methods and Parameters start with a lowercase char.
+Only Parameters which are Class Definition are written with a leading uppercase char.
+```typescript
+// function
+function myFunc() {
+}
+
+// function with param
+function mySecondFunc(param1: string) {
+}
+
+class MyClass {
+  constructor(someParam: number) {
+  }
+  
+  method(anotherParam: string) {
+  }
+  
+  wildMethod() {
+  }
+}
+```
+
+**Documentation & Comments**    
+TODO
