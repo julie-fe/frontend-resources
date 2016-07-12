@@ -4,7 +4,7 @@
 - [CSS](#css)
   - [In short](#in-short)
   - [Links](#links)
-- [JavaScript/Typescript](#css)
+- [JavaScript/Typescript](#javascripttypescript)
 
 ## CSS
 
