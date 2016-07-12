@@ -133,6 +133,7 @@ class MyClass {
   constructor(someParam: number) {
   }
   
+  // methods  
   method(anotherParam: string) {
   }
   
