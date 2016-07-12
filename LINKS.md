@@ -52,8 +52,8 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [Slack](https://slack.com/) A messaging app for teams.
 - [Xcode](https://developer.apple.com/xcode/download/) Xcode command line tools.
 
-## Guidlines
-- [CSS](https://github.com/Netural/frontend-resources/blob/master/CODEGUIDLINES.md) Netural CSS Code Guidlines
+## Guidelines
+- [CSS](https://github.com/Netural/frontend-resources/tree/master/code-guidelines) Netural CSS Code Guidelines
 
 ## Other Apps
 - [Image Optim](https://imageoptim.com/) Removes bloated metadata. Compressing images without losing quality.
