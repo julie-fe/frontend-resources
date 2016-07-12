@@ -70,6 +70,21 @@ Variables start with a lowercase char
 let myVar = 1;
 let mySecondVar = myVar;
 ```
+**Strings**  
+Strings should always be written with a single quote or the new char for Template Strings.
+Don't use double quotes for declaring strings.
+[Template String documentation on babeljs.io](https://babeljs.io/docs/learn-es2015/#template-strings)
+```typescript
+// bad
+let bad = "dont do that";
+
+// good
+let goodString = 'much better :)';
+
+// also fine
+let templateString = `This string is ${goodString}`;
+```
+
 **Classes and instances**   
 Classes start with a uppercase char, instances with a lowercase char like variables (they are variables)    
 [Classes auf typescriptlang.org](http://www.typescriptlang.org/docs/handbook/classes.html)
