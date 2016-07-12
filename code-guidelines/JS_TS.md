@@ -75,4 +75,12 @@ class MyClass {
 ```
 
 **Documentation & Comments**    
+Work in progress    
+Use JSDOC (TypeDoc) Syntax in your comments so we can generate a documentation and VSCode understands it.   
+[JSDOC](http://usejsdoc.org/)
+
+** Single Line Comment**   
+TODO
+
+** Block Comment**   
 TODO
