@@ -76,11 +76,77 @@ class MyClass {
 
 **Documentation & Comments**    
 Work in progress    
-Use JSDOC (TypeDoc) Syntax in your comments so we can generate a documentation and VSCode understands it.   
-[JSDOC](http://usejsdoc.org/)
+Use JSDoc (TypeDoc) Syntax in your comments so we can generate a documentation and VSCode understands it.   
+[JSDoc](http://usejsdoc.org/)
 
-** Single Line Comment**   
-TODO
+**Single Line Comment**   
+For a single line comment always use the "//" characters not "/* */"
+```typescript
+// My comment to describe the following line
+let str = 'Line that needs explanation';
 
-** Block Comment**   
-TODO
+str = 'another string'; // this comment is also possible but less popular
+```
+
+**Block Comment**   
+Block comments are used for multi line comments. There are to types of usage of block comments:
+* Inline Block comments
+* Block comments for describing classes, functions, methods and interfaces
+
+If you comment on the second type you should use JSDoc decorators.     
+Consider installing the [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) extension for Visual Studio Code to automatically generate JSDoc comments
+```typescript
+
+// Multi line comment to describe
+// the following line
+let str = 'Line that needs a lot explanation';
+
+/**
+ * My first interface
+ * 
+ * @interface MyInterfaceOfACustomArray
+ * @template T
+ */
+interface MyInterfaceOfACustomArray<T> {
+    [index: number]: T;
+    push(item: T) {
+    }
+}
+
+/**
+ * This is a block comment to describe the class "MyClass".
+ * There are also jsdoc definitions like @export & @class.
+ * 
+ * @export
+ * @class MyClass
+ */
+export class MyClass {
+
+    /**
+     * Creates an instance of MyClass.
+     * 
+     * @param {string} myParam
+     * @param {number} [optionalParam]
+     */
+    constructor(myParam: string, optionalParam?: number) {
+    }
+
+    /**
+     * Some Method
+     * 
+     * @template T
+     * @param {MyInterfaceOfACustomArray<T>} anotherParam
+     * @returns {T}
+     */
+    myMethod<T>(anotherParam: MyInterfaceOfACustomArray<T>): T {
+        
+        // single line comment to describe the line below 
+        let a = 1;
+
+        // Mulit line comment because the line blow
+        // needs a lot of documentation
+        a=2;
+    }
+}
+
+```
