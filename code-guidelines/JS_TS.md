@@ -35,7 +35,7 @@ class MyClass {
 let myClass = new MyClass();
 ```
 
-**Interfaces**    
+## Interfaces
 Interfaces should start with an uppercase char.   
 For better readability prepend a leading uppercase "I" to the interface name.    
 [Interfaces auf typescriptlang.org](http://www.typescriptlang.org/docs/handbook/interfaces.html)
@@ -49,7 +49,7 @@ interface IMyInterface {
 }
 ```
 
-**Functions & Methods** 
+## Functions & Methods
 Functions, Methods and Parameters start with a lowercase char.
 Only Parameters which are Class Definition are written with a leading uppercase char.
 ```typescript
@@ -74,7 +74,7 @@ class MyClass {
 }
 ```
 
-**Documentation & Comments**    
+## Documentation & Comments    
 Work in progress    
 Use JSDoc (TypeDoc) Syntax in your comments so we can generate a documentation and VSCode understands it.   
 [JSDoc](http://usejsdoc.org/)
