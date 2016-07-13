@@ -2,13 +2,13 @@
 In JavaScript/TypeScript we use the CamelCase Syntax    
 * [Typescript Handbook](http://www.typescriptlang.org/docs/)
 
-**Variables**   
+## Variables
 Variables start with a lowercase char
 ```typescript
 let myVar = 1;
 let mySecondVar = myVar;
 ```
-**Strings**  
+## Strings
 Strings should always be written with a single quote or the new char for Template Strings.
 Don't use double quotes for declaring strings.
 [Template String documentation on babeljs.io](https://babeljs.io/docs/learn-es2015/#template-strings)
@@ -23,7 +23,7 @@ let goodString = 'much better :)';
 let templateString = `This string is ${goodString}`;
 ```
 
-**Classes and instances**   
+## Classes and instances  
 Classes start with a uppercase char, instances with a lowercase char like variables (they are variables)    
 [Classes auf typescriptlang.org](http://www.typescriptlang.org/docs/handbook/classes.html)
 ```typescript
