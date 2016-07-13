@@ -16,7 +16,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 
 ## Essential Tools & Apps
 ### Environment
-- [brew] (http://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- [brew](http://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - [nodejs](https://nodejs.org) & npm `brew install node`
 - [bower](http://bower.io/) `npm install -g bower`
 - [gulp](http://gulpjs.com/) `npm install -g gulp-cli`

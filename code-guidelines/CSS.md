@@ -5,6 +5,7 @@
 - [SMACSS](https://smacss.com/) Scalable and Modular Architecture for CSS.
 - [BEM](http://getbem.com/) Block Element Modifier
 - [BEM in the wild](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+- [CSS Reference](http://tympanus.net/codrops/css_reference/) extensive reference for CSS properties
 
 ## BEM
 
