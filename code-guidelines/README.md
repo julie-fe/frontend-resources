@@ -1,6 +1,7 @@
 # CODE GUIDELINES
 
 ## Table of Contents
+- [HTML](https://github.com/Netural/frontend-resources/blob/master/code-guidelines/HTML.md)
 - [CSS](https://github.com/Netural/frontend-resources/blob/master/code-guidelines/CSS.md)
 - [JavaScript/Typescript](https://github.com/Netural/frontend-resources/blob/master/code-guidelines/JS_TS.md)
 
