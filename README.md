@@ -1,4 +1,5 @@
 # Frontend-Resources
 
 ## Table of Contents
-TODO: Write ...
+- [Useful Links](https://github.com/Netural/frontend-resources/blob/master/LINKS.md)
+- [Code Guidelines](https://github.com/Netural/frontend-resources/blob/master/code-guidelines/README.md)
