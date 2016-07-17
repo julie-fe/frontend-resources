@@ -60,3 +60,4 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 
 ## Online Tools
 - [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) A Hassle-Free Way to Self-Host Google Fonts
+- [Web App Manifest Generator](https://app-manifest.firebaseapp.com/) The Web App Manifest is a JSON document that provides application metadata for Progressive Web Apps.
