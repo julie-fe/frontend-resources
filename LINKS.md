@@ -51,6 +51,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 ### Others
 - [Slack](https://slack.com/) A messaging app for teams.
 - [Xcode](https://developer.apple.com/xcode/download/) Xcode command line tools.
+- [Royal TSX](https://www.royalapplications.com/ts/osx/download) A good RDP Client for Mac & Windows.
 
 ## Guidelines
 - [CSS](https://github.com/Netural/frontend-resources/tree/master/code-guidelines) Netural CSS Code Guidelines
