@@ -1,5 +1,4 @@
-# Dotfiles (WIP)
-
+# Dotfiles
 The following files must be inserted in the root of every Netural Frontend Project. You also have to install the corresponding IDE plugins for those configuration files.
 
 ### [.editorconfig](./.editorconfig) 
