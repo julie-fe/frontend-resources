@@ -1,6 +1,7 @@
 # Dotfiles (WIP)
 
-Work in progress, will be finalized soon
+The following files must be inserted in the root of every Netural Frontend 
 
-- [.editorconfig](https://github.com/Netural/frontend-resources/blob/master/dotfiles/.editorconfig): Install the plugin for your IDE, clone this file in your project root and benefit from consistent coding styles!
-- TODO: .gitignore
+- [.editorconfig](./.editorconfig)
+- [tslint.json](./tslint.json)
+- [.gitignore](./.gitignore)
