@@ -18,8 +18,13 @@
 16. Grunt/Gulp/Webpack build in place
 17. Resource hints: dns-prefetch, prefetch, prerender, preload
 18. Improve perceived perf. (skeleton screens, lazy-loaded fonts and expensive JavaScript, e.g. carousels, video, iframes)
-19. Goal: Start Render <1s
-20. Goal: SpeedIndex ±1000
+19. Only animate `transform` and `opacity`
+20. Check the devtools render tab for render performance (Paint flashing, fps)
+21. Code is linted with tslint
+22. Use editorconfig
+23. Coding guidlines
+24. Goal: Start Render <1s
+25. Goal: SpeedIndex ±1000
 
 
 Taken from: https://plus.google.com/+SmashingMagazine/posts/UxXy9bqEXyW
