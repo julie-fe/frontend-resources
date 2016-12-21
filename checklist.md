@@ -19,12 +19,13 @@
 17. Resource hints: dns-prefetch, prefetch, prerender, preload
 18. Improve perceived perf. (skeleton screens, lazy-loaded fonts and expensive JavaScript, e.g. carousels, video, iframes)
 19. Only animate `transform` and `opacity`
-20. Check the devtools render tab for render performance (Paint flashing, fps)
-21. Code is linted with tslint (https://github.com/Netural/frontend-resources/blob/master/dotfiles)
-22. Use editorconfig (https://github.com/Netural/frontend-resources/blob/master/dotfiles)
-23. Coding guidlines (https://github.com/Netural/frontend-resources/tree/master/code-guidelines)
-24. Goal: Start Render <1s
-25. Goal: SpeedIndex ±1000
+20. Hide an show element with aria-hidden not classes (browser/screen reader understands)
+21. Check the devtools render tab for render performance (Paint flashing, fps)
+22. Code is linted with tslint (https://github.com/Netural/frontend-resources/blob/master/dotfiles)
+23. Use editorconfig (https://github.com/Netural/frontend-resources/blob/master/dotfiles)
+24. Coding guidlines (https://github.com/Netural/frontend-resources/tree/master/code-guidelines)
+25. Goal: Start Render <1s
+26. Goal: SpeedIndex ±1000
 
 
 Taken from: https://plus.google.com/+SmashingMagazine/posts/UxXy9bqEXyW
