@@ -73,7 +73,7 @@ directory | A list of references to members of a group, such as a static table o
 document | A region containing related information that is declared as document content, as opposed to a web application. | ```<body>```
 form | A landmark region that contains a collection of items and objects that, as a whole, combine to create a form. See related search | ```<form>```
 log | A type of live region where new information is added in meaningful order and old information may disappear. See related marquee. Note: Elements with the role log have an implicit aria-live value of polite.	  |
-main | A main content of a document. | ```<div id="content">```
+main | A main content of a document. | ```<main>, <div id="content">```
 navigation | A collection of navigational elements (usually links) for navigating the document or related documents. | ```<nav>```
 note | A section whose content is parenthetic or ancillary to the main content of the resource.	  |
 region | A large perceivable section of a web page or document, that the author feels is important enough to be included in a page summary or table of contents, for example, an area of the page containing live sporting event statistics. | ```<div>, <frame>, <section>```
