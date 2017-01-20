@@ -36,12 +36,28 @@ For the "skip to main content" link use following css to show it only for screen
 body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
 ```
 
+## Video transcribe services
+
+```
+<video class="span12 readable" poster="your-video-poster.jpg" controls tabindex="0" title="My Movie">
+    <source  src="your-video.m4v" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+    <source  src="your-video.ogg" type='application/ogg' />
+    <source  src="your-video.webm" type='video/webm' />
+    <track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
+</video>
+```
+
+* http://verbalink.com/
+* https://www.speechpad.com
+* http://www.rev.com/transcription
+
 ## Useful resources
 * http://a11yproject.com/
 
 
 ## Aria landmark roles
 
+http://a11yproject.com/posts/getting-started-aria/
 http://a11yproject.com/posts/aria-landmark-roles/
 
 ```<div role="application"></div>```
