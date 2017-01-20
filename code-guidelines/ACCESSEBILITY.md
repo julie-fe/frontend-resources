@@ -20,6 +20,22 @@ Important is the "Skip to main content" link. See http://a11yproject.com/posts/s
 </body>
 ```
 
+For the "skip to main content" link use following css to show it only for screenreaders
+
+```
+.visually-hidden { /*https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html*/
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+} 
+body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
+```
+
 ## Useful resources
 * http://a11yproject.com/
 
