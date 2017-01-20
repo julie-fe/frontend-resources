@@ -1,7 +1,32 @@
 # Accessebility guidlines
 
+## Basic html structure
+
+Important is the "Skip to main content" link. See http://a11yproject.com/posts/skip-nav-links/
+
+```
+<body>
+  <a href="#main">Skip to main content</a>
+  <nav role='navigation'>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+  </nav>
+  <main id="main" role="main">
+    <!-- page specific content -->
+  </main>
+</body>
+```
+
 ## Useful resources
 * http://a11yproject.com/
+
+
+## Aria landmark roles
+
+http://a11yproject.com/posts/aria-landmark-roles/
 
 ```<div role="application"></div>```
 
