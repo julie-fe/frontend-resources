@@ -6,8 +6,6 @@
 - [MDN: HTML guide](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML): Guides for marking up content correctly in HTML
 - [Google Developers: Forms](https://developers.google.com/web/fundamentals/design-and-ui/input/forms/label-and-name-inputs?hl=en): Create amazing forms!
 
-TODO: more links to clean-markup sites.
-
 ## General
 
 - **Get a pen & paper!**
