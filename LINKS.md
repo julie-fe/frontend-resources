@@ -1,16 +1,15 @@
 # Frontend-Resources
-A collection of all the resources usefull for every webdeveloper (not only at Netural)
+A collection of all the resources useful for every webdeveloper (not only at Netural)
 
 ## Table of Contents
-- [Essetial Tools & Apps](#essetial-tools--apps)
+- [Essential Tools & Apps](#essential-tools--apps)
   - [Environment](#environment)
   - [IDEs & Texteditors](#ides--texteditors)
   - [Template Engines](#template-engines)
   - [Git](#git)
   - [Fonts](#fonts)
   - [Others](#others)
-- [Guidlines](#guidlines)
-  - [CSS](#css)
+- [Guidelines](#guidelines)
 - [Other Apps](#other-apps)
 - [Online Tools](#online-tools)
 
@@ -32,7 +31,7 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 ### IDEs & Texteditors
 - [Visual Studio Code](http://code.visualstudio.com/) Super nice code completion & integration, typescript
 - [Atom](https://atom.io/) Used by Facebook, developed by GitHub, great for hacking stuff
-- [Sublime](http://www.sublimetext.com/2) Most known web-dev text editor
+- [Sublime](http://www.sublimetext.com/3) Most known web-dev text editor
 
 ### Template Engines
 - [Jade](https://jade-lang.com/) `npm install -g jade`
@@ -45,16 +44,17 @@ A collection of all the resources usefull for every webdeveloper (not only at Ne
 - [GitHub for Desktop](https://www.git-tower.com/) GitHub Desktop is a seamless way to contribute to projects on GitHub and GitHub Enterprise.
 - [GitKraken](https://www.gitkraken.com/) The downright luxurious Git client, for Windows, Mac & Linux. Cross-platform, 100% standalone, and free.
 
+## Guidelines
+- [Coding Guidelines](https://github.com/Netural/frontend-resources/tree/master/code-guidelines) Netural Coding Guidelines
+
 ### Fonts
 - [Fira Code](https://github.com/tonsky/FiraCode) Monospaced font with programming ligatures
+- [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) Monospaced font with programming ligatures
 
 ### Others
 - [Slack](https://slack.com/) A messaging app for teams.
 - [Xcode](https://developer.apple.com/xcode/download/) Xcode command line tools.
 - [Royal TSX](https://www.royalapplications.com/ts/osx/download) A good RDP Client for Mac & Windows.
-
-## Guidelines
-- [CSS](https://github.com/Netural/frontend-resources/tree/master/code-guidelines) Netural CSS Code Guidelines
 
 ## Other Apps
 - [Image Optim](https://imageoptim.com/) Removes bloated metadata. Compressing images without losing quality.

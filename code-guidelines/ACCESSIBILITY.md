@@ -1,8 +1,8 @@
-# Accessebility guidlines
+# Accessibility guidlines
 
 ## Basic html structure
 
-Important is the "Skip to main content" link. See http://a11yproject.com/posts/skip-nav-links/
+Important is the "Skip to main content" link. See [a11yproject.com](http://a11yproject.com/posts/skip-nav-links/)
 
 ```
 <body>
