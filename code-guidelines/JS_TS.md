@@ -3,10 +3,25 @@ In JavaScript/TypeScript we use the CamelCase Syntax
 * [Typescript Handbook](http://www.typescriptlang.org/docs/)
 
 ## Variables
-Variables start with a lowercase char
+### Naming
+Variables start with a lowercase character.
 ```typescript
 let myVar = 1;
 let mySecondVar = myVar;
+```
+
+### Declaration
+Avoid using a single ```var/let/const``` for declaring multiple variables.
+```typescript
+// avoid
+let myVar = 1,
+    mySecondVar = myVar + 3,
+    last = 'last';
+
+// use
+let myVar = 1;
+let mySecondVar = myVar + 3;
+const last = 'last';
 ```
 ## Strings
 Strings should always be written with a single quote or the new char for Template Strings.
