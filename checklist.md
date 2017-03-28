@@ -19,7 +19,7 @@
 17. Resource hints: dns-prefetch, prefetch, prerender, preload
 18. Improve perceived perf. (skeleton screens, lazy-loaded fonts and expensive JavaScript, e.g. carousels, video, iframes)
 19. Only animate `transform` and `opacity`
-20. Hide and show element with aria-hidden not classes (browser/screen reader understands)
+20. Hide and show elements with aria-hidden not classes (browser/screen reader understands)
 21. Check the devtools render tab for render performance (Paint flashing, fps)
 22. Code is linted with tslint (https://github.com/Netural/frontend-resources/blob/master/dotfiles)
 23. Use editorconfig (https://github.com/Netural/frontend-resources/blob/master/dotfiles)
