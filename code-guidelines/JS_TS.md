@@ -10,6 +10,12 @@ let myVar = 1;
 let mySecondVar = myVar;
 ```
 
+### let vs const
+If your variable will not change over time please use const.
+This will help others to understand your code more easily.
+```typescript
+const API_PATH = 'https://...'
+```
 ### Declaration
 Avoid using a single ```var/let/const``` for declaring multiple variables.
 ```typescript
