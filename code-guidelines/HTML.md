@@ -80,6 +80,47 @@ Per HTML5 spec, typically there is no need to specify a `type` when including CS
 - *Always* include JavaScript files on the bottom of a page. 
 - We try to streamline the including as good as possible in the boilerplates
 
+## Boolean attributes
+
+A boolean attribute is one that needs no declared value. XHTML required you to declare a value, but HTML5 has no such requirement.
+For further reading, consult the WhatWG section on boolean attributes:
+
+> The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value.
+
+If you *must* include the attribute's value, and **you don't need** to, follow this WhatWG guideline:
+
+> If the attribute is present, its value must either be the empty string or [...] the attribute's canonical name, with no leading or trailing whitespace.
+
+**In short, don't add a value.**
+
+
+```HTML
+<input type="text" disabled>
+
+<input type="checkbox" value="1" checked>
+
+<select>
+  <option value="1" selected>1</option>
+</select>
+```
+
+## Reduce markup
+
+Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML.
+```HTML 
+<!-- Not so great -->
+<span class="avatar">
+  <img src="...">
+</span>
+
+<!-- Better -->
+<img class="avatar" src="...">
+```
+
+## JavaScript generated markup
+
+Writing markup in a JavaScript file makes the content harder to find, harder to edit, and less performant. Avoid it whenever possible. Use serverside rendering or if not possible at least choose a JS templating library ([Handlebars](http://handlebarsjs.com/) preferred).
+
 ## Links
 
 - [MDN: HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element): Pokedex of HTML elements
