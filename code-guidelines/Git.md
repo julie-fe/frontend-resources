@@ -11,9 +11,9 @@ Largely inspired by [Git Style Guide](https://github.com/agis-/git-style-guide).
 
 ## Branches
 
-* We use a slightly modified version of [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/) as a branching model. 
+- We use a slightly modified version of [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/) as a branching model. 
 
-* Choose *short* and *descriptive* names:
+- Choose *short* and *descriptive* names:
 
     ```shell
     # good
@@ -23,9 +23,9 @@ Largely inspired by [Git Style Guide](https://github.com/agis-/git-style-guide).
     $ git checkout -b feature/language_fix
     ```
 
-* Use *dashes* to separate words. 
+- Use *dashes* to separate words. 
 
-* Use a forward slash to categorize your branch:
+- Use a forward slash to categorize your branch:
     
     ```shell
     # good
@@ -39,7 +39,7 @@ Largely inspired by [Git Style Guide](https://github.com/agis-/git-style-guide).
     $ git checkout -b release-20171204-somechange
     ```
 
-* Prefix your hotfix branches with the issue number from JIRA or Freshdesk (in case Freshdesk is still used, when you are reading this). 
+- Prefix your hotfix branches with the issue number from JIRA or Freshdesk (in case Freshdesk is still used, when you are reading this). 
   For feature branches this is not necessary.
 
     ```shell
@@ -47,25 +47,25 @@ Largely inspired by [Git Style Guide](https://github.com/agis-/git-style-guide).
     $ git checkout -b hotfix/35-smaller-headline-size
     ```
 
-* Delete your branch from the upstream repository after it's merged, unless there is a specific reason not to.
+- Delete your branch from the upstream repository after it's merged, unless there is a specific reason not to.
 
 
 ## Commits
 
-* Each commit should be a single *logical change*. Don't make several *logical changes* in one commit. 
+- Each commit should be a single *logical change*. Don't make several *logical changes* in one commit. 
   For example, if a patch fixes a bug and optimizes the performance of a feature, split it into two separate commits.
 
   *Tip: Use `git add -p` to interactively stage specific portions of the
   modified files.*
 
-* Don't split a single *logical change* into several commits. For example,
+- Don't split a single *logical change* into several commits. For example,
   the implementation of a feature and the corresponding tests should be in the
   same commit.
 
-* Commit *early* and *often*. Small, self-contained commits are easier to
+- Commit *early* and *often*. Small, self-contained commits are easier to
   understand and revert when something goes wrong.
 
-* Commits should be ordered *logically*. For example, if *commit X* depends
+- Commits should be ordered *logically*. For example, if *commit X* depends
   on changes done in *commit Y*, then *commit Y* should come before *commit X*.
 
 Note: While working alone on a local branch that *has not yet been pushed*, it's
@@ -73,7 +73,7 @@ fine to use commits as temporary snapshots of your work. However, it still
 holds true that you should apply all of the above *before* pushing it.
 
 
-* The summary line (ie. the first line of the message) should be
+- The summary line (ie. the first line of the message) should be
   *descriptive* yet *succinct*. Ideally, it should be no longer than
   *50 characters*. It should be capitalized and written in imperative present
   tense. It should not end with a period since it is effectively the commit
@@ -87,7 +87,7 @@ holds true that you should apply all of the above *before* pushing it.
   fixed ActiveModel::Errors deprecation messages failing when AR was used outside of Rails.
   ```
 
-* After that should come a blank line followed by a more thorough
+- After that should come a blank line followed by a more thorough
   description. It should be wrapped to *72 characters* and explain *why*
   the change is needed, *how* it addresses the issue and what *side-effects*
   it might have.
@@ -122,16 +122,16 @@ holds true that you should apply all of the above *before* pushing it.
 
 ## Misc.
 
-* There are various workflows and each one has its strengths and weaknesses.
+- There are various workflows and each one has its strengths and weaknesses.
   Whether a workflow fits your case, depends on the team, the project and your
   development procedures.
 
-* *Be consistent.* This is related to the workflow but also expands to things
+- *Be consistent.* This is related to the workflow but also expands to things
   like commit messages, branch names and tags. Having a consistent style
   throughout the repository makes it easy to understand what is going on by
   looking at the log, a commit message etc.
 
-* *Test before you push.* Do not push half-done work.
+- *Test before you push.* Do not push half-done work.
 
 
 # Inspired by
