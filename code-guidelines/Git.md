@@ -15,13 +15,13 @@ Largely inspired by [Git Style Guide](https://github.com/agis-/git-style-guide).
 
 * Choose *short* and *descriptive* names:
 
-  ```shell
-  # good
-  $ git checkout -b feature/add-contact-forms
+    ```shell
+    # good
+    $ git checkout -b feature/add-contact-forms
 
-  # bad - too vague
-  $ git checkout -b feature/language_fix
-  ```
+    # bad - too vague
+    $ git checkout -b feature/language_fix
+    ```
 
 * Use *dashes* to separate words. 
 
@@ -42,10 +42,10 @@ Largely inspired by [Git Style Guide](https://github.com/agis-/git-style-guide).
 * Prefix your hotfix branches with the issue number from JIRA or Freshdesk (in case Freshdesk is still used, when you are reading this). 
   For feature branches this is not necessary.
 
-```shell
-# JIRA bug #BSP-35
-$ git checkout -b hotfix/35-smaller-headline-size
-```
+    ```shell
+    # JIRA bug #BSP-35
+    $ git checkout -b hotfix/35-smaller-headline-size
+    ```
 
 * Delete your branch from the upstream repository after it's merged, unless there is a specific reason not to.
 
@@ -120,6 +120,11 @@ holds true that you should apply all of the above *before* pushing it.
   Ultimately, when writing a commit message, think about what you would need
   to know if you run across the commit in a year from now.
 
+## Misc.
+
+* There are various workflows and each one has its strengths and weaknesses.
+  Whether a workflow fits your case, depends on the team, the project and your
+  development procedures.
 
 * *Be consistent.* This is related to the workflow but also expands to things
   like commit messages, branch names and tags. Having a consistent style
