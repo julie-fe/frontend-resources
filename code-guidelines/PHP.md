@@ -1,5 +1,5 @@
 # PHP
-In PHP we use the CamelCase Syntax    
+In PHP we use the CamelCase Syntax.
 
 ## Variables
 
@@ -12,47 +12,50 @@ $mySecondVar = $myVar;
 ```
 
 ### variables vs constants
-If the thing you try to describe will not change over time please use const.
-If your variable will change, then use a normal `$var`
+Use const if the value won't change.
+If your variable will change, use a normal `$var`.
 
 This will help others to understand your code more easily.
 
 #### Constants
-Constants should be named all-uppercase, with underscores to separate words.
+Constants are all-uppercase, with underscores to separate words.
+
 ```php
 const API_HOST = 'https://api.example.com/'
 ```
 
 #### Variables
-Variables should be named camelCase style.
+Variables are named camelCase style.
 ```php
 $changingVariable = ''
 ```
 
 ## Strings
-Always use single quote declared strings with php. Do not rely on PHP's auto string interpolation with double-quoted strings, use string concatenation to achieve this.
-This way it's clear and easy to spot what you intended to do.
+- Always use single quote declared strings with php. 
+- Do not rely on PHP's auto string interpolation with double-quoted strings, use string concatenation to achieve this.
+- Don't use double quotes for declaring strings.
 
-Don't use double quotes for declaring strings.
 [PHP String documentation including string parsing](http://php.net/manual/de/language.types.string.php)
 
 ```php
-// bad
-$bad = "dont do that";
-
-// worse
-$worse = "really $bad";
-
 // good
 $good = 'Good';
 
 // also fine
 $templateString = 'This string is '.$good;
+
+// bad
+$bad = "dont do that";
+
+// worse
+$worse = "really $bad";
 ```
 
 ## Namespaces
-Namespaces in PHP are declared PascalCase (first character upper case) and your should try to put them according to your directory structure. ([Battle of the autoloaders PSR-0 vs PSR-4](https://www.sitepoint.com/battle-autoloaders-psr-0-vs-psr-4/))
+Namespaces in PHP are declared PascalCase (first character upper case) and you should try to put them according to your directory structure ([Battle of the autoloaders PSR-0 vs PSR-4](https://www.sitepoint.com/battle-autoloaders-psr-0-vs-psr-4/)).
+
 This file should be found in this directory: `Netural/Component/Serializer.php`
+
 ```php
 namespace Netural\Component\Serializer;
 
@@ -63,7 +66,8 @@ class Serializer {
 
 
 ## Classes and instances
-Classes are declared Pascal case
+Classes are declared Pascal case.
+
 ```php
 // class
 class MyClass {
@@ -75,12 +79,13 @@ $myClass = new MyClass();
 ```
 
 ### Fields / Properties / Members
-Declare fields `private` or `protected`! **Never** declare a field `public`!
-If you want a field to be accessible from the outside, let the IDE generate a getter for this particular variable.
-**Don't** generate Getters / Setters automatically for all the fields declared in your class, only generate getters / setter for those where you really need them.
+- Declare fields `private` or `protected`.
+- **Never** declare a field `public`.
+- If you want a field to be accessible from the outside, let the IDE generate a getter for this particular variable.
+- **Don't** generate Getters / Setters automatically for all the fields declared in your class, only generate getters / setter for those where you really need them.
 
 #### Type Information
-Use the PHPDocBlock comment syntax to give type information about your field.
+Comment code with [PHPDocBlock](https://phpdoc.org/docs/latest/getting-started/your-first-set-of-documentation.html).
 
 ```php
 class Note {
@@ -102,11 +107,10 @@ class Note {
 ```
 
 ## Interfaces
-Interfaces should start with an uppercase char.   
-Either append the word 'Interface' at the end of the interface name. (Very common)
-Or prepend the character 'I' before the interface name. (not so common, but still okay)
-
-But be consistent with it in the project, don't mix the declarations in the same project.
+- Interfaces start with an uppercase character.   
+- Either append the word `Interface` at the end of the interface name. (Very common)
+- Or prepend the character `I` before the interface name. (not so common, but still okay)
+- Be consistent with it in the project, don't mix the declarations in the same project.
 
 ```php
 // good and common
@@ -120,7 +124,7 @@ interface IMyInterface {
 
 
 ## Functions & Methods
-Functions, Methods and Parameters start with a lowercase char.
+Functions, Methods and Parameters start with a lowercase character.
 ```php
 // function
 function myFunc() {
@@ -144,7 +148,8 @@ class MyClass {
 ```
 
 ### Type information
-Whenever possible, use the power of Type hinting and specify the type of object in the function parameter.
+
+Whenever possible, use the power of type hinting and specify the type of object in the function parameter.
 This helps code linters, and your IDE to make your code safer, and tell you, where you could possibly mess up.
 ```php
 /**
@@ -234,8 +239,8 @@ class Serializer implements SerializerInterface {
 ```
 
 ## Composer ([getcomposer.com](https://getcomposer.org/))
-Never create a project without a composer setup. This has been done in the old days, but since we are now in the future, always use package managers instead of handling
-dependencies yourself.
+- Never create a project without a composer setup. 
+- This has been done in the old days, but since we are now in the future, always use package managers instead of handling dependencies yourself.
 
 To create a project from scratch, just do:
 ```bash
