@@ -76,7 +76,7 @@ Per HTML5 spec, typically there is no need to specify a `type` when including CS
 
 ### Location of includes
 
-- Consider a above-the-fold CSS file
+- Consider an above-the-fold CSS file
 - *Always* include JavaScript files on the bottom of a page. 
 - We try to streamline the including as good as possible in the boilerplates
 
