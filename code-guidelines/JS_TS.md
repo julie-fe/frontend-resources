@@ -45,7 +45,7 @@ let templateString = `This string is ${goodString}`;
 ```
 
 ## Classes and instances  
-Classes start with a uppercase char, instances with a lowercase char like variables (they are variables)    
+Classes start with an uppercase char, instances with a lowercase char like variables (they are variables)    
 [Classes auf typescriptlang.org](http://www.typescriptlang.org/docs/handbook/classes.html)
 ```typescript
 // class
@@ -110,7 +110,7 @@ str = 'another string'; // this comment is also possible but less popular
 ```
 
 **Block Comment**   
-Block comments are used for multi line comments. There are to types of usage of block comments:
+Block comments are used for multi line comments. There are two types of usage of block comments:
 * Inline Block comments
 * Block comments for describing classes, functions, methods and interfaces
 
